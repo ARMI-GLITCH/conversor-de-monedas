@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://kit.fontawesome.com/cfa6615fb1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <title>Conversor de Monedas</title>
+</head>
+<body>
+  <main>
+  <center>
+    <div>
+    <header>
+      <h1 class="titulo"><i class="fa-solid fa-sack-dollar"></i> Conversor-de-Monedas <i class="fa-solid fa-earth-asia"></i></i></h1>
+      <h2 class="subtitulo"><i class="fa-solid fa-triangle-exclamation"></i> Solo se puede convertir de 🇲🇽 Pesos mexicanos a: Peso argentino, Yen Japonés y Dolar Estadounidense.</h2>
+      <h3 class="error" id="error"></h3>
+    </header>
+    </div>
+  <div class="convertidor-de-monedas">
+    <form class="formulario" id="formulario">
+      <label for="entrance-coin" class="label-entrance-coin"><i class="fa-solid fa-coins"></i> Entrada de la Moneda <i class="fa-solid fa-coins"></i></label><br>
+      <i class="fa-solid fa-circle-right"></i> <input type="text" name="entrance-coin" class="entrance-coin" id="entrance-coin"> <i class="fa-solid fa-circle-left"></i>
+      <input type="submit" class="button" id="button-convertir" value="Convertir">
+    </form>
+  </div>
+  <div class="resultados">
+    <div class="USD">
+      <label>🇺🇸 Dolar Estadounidense</label><br>
+      <i class="fa-solid fa-coins"></i> <i class="fa-solid fa-arrow-right-from-bracket"></i> <input type="number" class="input-USD" readonly>
+    </div>
+    <div class="ARS">
+      <label>🇦🇷 Peso Argentino </label><br>
+      <i class="fa-solid fa-coins"></i> <i class="fa-solid fa-arrow-right-from-bracket"></i> <input type="number" class="input-ARS" readonly>
+    </div>
+    <div class="JPY">
+      <label>🇯🇵 Yen Japonés </label><br>
+      <i class="fa-solid fa-coins"></i> <i class="fa-solid fa-arrow-right-from-bracket"></i> <input type="number" class="input-JPY" readonly>
+    </div>
+  </div>
+  </main>
+  </center>
+</body>
+<script src="JS/front.js"></script>
+</html>
