@@ -24,7 +24,7 @@ body {
 
 .error {
   background-color: white;
-  color: red;
+  color: rgb(0, 0, 0);
   width: 30%;
   box-shadow: 10px 10px 5px black;
   border-radius: 20px;
