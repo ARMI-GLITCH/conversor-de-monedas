@@ -16,7 +16,7 @@ function convertir_entrada_de_la_moneda(event){
     entrada_de_la_moneda.focus();
     error.innerText= "Error: No se puede integrar letras en el campo"
   }else if(verificar_numeros.test(entrada_de_la_moneda.value)){
-    error.innerText= 'La Moneda se ha convertido correctamnete'
+    error.innerText= 'La Moneda se ha convertido correctamente'
     var USD = entrada_de_la_moneda.value / 20;
     document.getElementById('input-USD').value = USD;
     var ARS = entrada_de_la_moneda.value * 5;
